@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Styles -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet"> -->
+    <link href="css/google.fonts.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> -->
+    <link href="css/font-awesome-chivo.css" rel="stylesheet">
+    <link href="css/font-awesome-roboto.css" rel="stylesheet">
+    <link href="css/google.fonts.2.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link href="css/aboutus.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/video.css">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 130vh;
+            background-image: url('images/bg-orange.png');
+            background-repeat: no-repeat;
+            background-position-x: -121px ;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="flex margin--btm--md">
+            <div class="flex1"></div>
+            <div class="flex1">
+                <img src="images/sp1122.png" class="sp--menu--img" style="width: 300px;" alt="">
+            </div>
+            <div class="flex1 align-right">
+                <div class="icon dropdown">
+                    <!-- <span>Menu</span> -->
+    
+                    <span><i class="fas fa-ellipsis-h span-fill" id="menu"></i></span>
+    
+                </div>
+    
+            </div>
+        </div>
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex" style="width: 100%;">
+                            <div class="m-auto" style="width: 65%;">
+                                <h1>Terms & Conditions</h1>
+                                <p>Special-Matrimony is an inclusive matchmaking app, providing online matchmaking services to help singles to find their desired life partner. It is a Licensed Mobile Application offering matching services for individuals that are deaf, Autistic, hard of hearing, visually impaired and those with other additional support needs (Cerebral palsy, spinaly injury, Amputee, Aspergers syndrome, Tourette syndrome, etc)</p>
+                                <p>Special-Matrimony provides these services to you, through the Platform on the condition that you accept these Terms and Conditions, updated from time to time. If you do not agree to the terms and Conditions, you don't have the right to use the Platform or take advantage of the Company's services.</p>
+
+                                <p>Please read these terms and conditions before registration/sign in</p>
+                                <ul>
+                                    <li>By registering, you represent and warrant that you are at least 18 years old. By using this application, you represent and warrant that you have the right, authority and capacity to enter into this Agreement, and you accept the terms and conditions of this Agreement. </li>
+                                    <li>Your association with the Service is for your personal use. You may not allow others to use your membership and you may not transfer your account to any other person or entity.</li>
+                                    <li>Your information must be accurate, current and complete. You agree that we may trust on Your Registration Data as accurate, current and complete. You admit that if Your Registration Data is untrue, wrong, not current or incomplete in any respect, we reserve the right to terminate this Agreement and your use of the Service.</li>
+                                    <li>You represent and warrant to us that you display the info posted in your profile, including your photograph and that you are the exclusive author of your profile and the sole owner of your pictures. </li>
+
+                                </ul>
+                                <p>The app is free to use. So, you will have access to video calling, sending virtual gifts to each other, Emojis and Gifs but the Company will not be responsible for the content you share. You are responsible for all actions taken with your login information and password as well.
+
+                                </p>
+                            </div>
+                        </div>
+    
+                        <!-- Video -->
+                        <div
+      id="preview"
+      class="basic-1"
+      style="margin-top: 30px; padding-top: 0px; width:100%;"
+    >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <button class="btn btn-outline-danger active" data-toggle="dropdown"
+                        id="btn-lng">Select Language</button>
+                    <div>
+                        <div class="dropdown-menu" id="dropdown">
+                            <a class="dropdown-item" onclick="changeVideoSrc(0)">ASL</a>
+                            <a class="dropdown-item"  onclick="changeVideoSrc(1)">BSL</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <div class="image-container"> -->
+            <div class="video-wrapper image-container">
+              
+                <img
+                  src="./images/assets/group.png"
+                  class="vide--preview--bg-image"
+                  alt=""
+                  style="margin-left: -45px; margin-top:-45px; background: none"
+                />
+                <!-- <img
+                  class="img-fluid"
+                  src="images/assets/resized.png"
+                  alt="alternative"
+                /> -->
+                <video style="width: 100%; border-radius: 12px;"
+                src="images/vid.mp4"
+                  class="img-fluid videoelem"
+                  id="video-elem"
+                  alt="alternative"
+                ><img
+                class="img-fluid"
+                src="images/assets/resized.png"
+                alt="alternative"
+              /></video>
+
+                <div
+                  class="content-conainer"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    color: white;
+                  "
+                >
+                  <div id="videoElement" class="d-flex" style="width: 100%; height: 100%">
+                    <img
+                      id="play"
+                      class="mr-auto ml-auto preview--icon"
+                      src="./images/assets/Button.png"
+                      style="background: none; margin: auto; cursor: pointer"
+                      alt="margin:auto"
+                      onclick="openPopup()"
+                    />
+                    <span style="display:none;" class="mr-auto ml-auto preview--icon" style="font-size: 3em; margin: auto;" onclick="pauseVideo()" id="pause"><i class="fa fa-pause"></i></span>
+                    </div>
+                  </div>
+                </div>
+              <!-- </a> -->
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of header-content -->
+        
+    </section>
+
+
+
+    <script>
+        const video_asl_src = 'images/vid.mp4';
+        const video_bsl_src = 'images/vids.mp4';
+        const videoSources = [video_asl_src, video_bsl_src];
+        var video_src = video_asl_src;
+
+        function openPopup(index = 0) {
+            // make display block
+            // // play video
+            // playVideo();
+            // return;
+            let video_player = document.getElementById('video-elem');
+            
+            // video_player.src = videoSources[index];
+            let pause = document.getElementById('pause');
+            let play = document.getElementById('play');
+            
+          // let video_player = document.getElementById('video-player');
+          
+          video_player.src = videoSources[index];
+          video_player.play();
+            // video_player.load();
+            pause.style.display = "block";
+            play.style.display = "none";
+            
+            // return; 
+
+        }
+
+        function closePopup() {
+            // make display none
+            let video_container = document.getElementById('pop-up-video');
+            let video_player = document.getElementById('video-player');
+            video_player.pause();
+            video_container.style.display = "none";
+        }
+
+        function changeVideoSrc(index) {
+            openPopup(index);
+        }
+
+
+        
+      function playVideo(params) {
+          let video_player = document.getElementById('video-elem');
+          let pause = document.getElementById('pause');
+          let play = document.getElementById('play');
+          play.style.display = "none";
+          pause.style.display = "block";
+          // let video_player = document.getElementById('video-player');
+          
+          // video_player.src = videoSources[index];
+          video_player.play();
+      }
+
+      function pauseVideo(params) {
+          let video_player = document.getElementById('video-elem');
+          let pause = document.getElementById('pause');
+          let play = document.getElementById('play');
+          play.style.display = "block";
+          pause.style.display = "none";
+          // let video_player = document.getElementById('video-player');
+          
+          // video_player.src = videoSources[index];
+          video_player.pause();
+      }
+
+
+
+    </script>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstra
+</body>
+</html>

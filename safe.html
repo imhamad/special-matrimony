@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Styles -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet"> -->
+    <link href="css/google.fonts.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> -->
+    <link href="css/font-awesome-chivo.css" rel="stylesheet">
+    <link href="css/font-awesome-roboto.css" rel="stylesheet">
+    <link href="css/google.fonts.2.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link href="css/aboutus.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/video.css">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 130vh;
+            background-image: url('images/bg-orange.png');
+            background-repeat: no-repeat;
+            background-position-x: -121px ;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="flex margin--btm--md">
+            <div class="flex1"></div>
+            <div class="flex1">
+                <img src="images/sp1122.png" class="sp--menu--img" style="width: 300px;" alt="">
+            </div>
+            <div class="flex1 align-right">
+                <div class="icon dropdown">
+                    <!-- <span>Menu</span> -->
+    
+                    <span><i class="fas fa-ellipsis-h span-fill" id="menu"></i></span>
+    
+                </div>
+    
+            </div>
+        </div>
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-flex" style="width: 100%;">
+                            <div class="m-auto" style="width: 65%;">
+                                <h1>Privacy Policy</h1>
+                                <ul>
+                                    <li>Special-Matrimony is committed to giving you a safe and secure stage where you search and discover your accomplice. We help our clients find the best matches, yet it is in light of a legitimate concern for a client to utilize their best judgment to survey someone else's validity and enthusiasm for marriage. </li>
+                                    <li>Despite all that we do to make the stage secure, we urge a couple of protections while using our goals and applications: If a client seems to have entered fake, incorrect data about their training, occupation, salary, family and so forth., imprint such profiles as 'Report Abuse' and avoid reaching that client. </li>
+                                    <li>If a client requests individual helps in the transportation of goods, store of assets for their sake, loan them some cash and so forth, quickly stop any communication with the client. </li>
+                                    <li>Beware of individuals who profess to call from the Special-Matrimony group requesting your client ids and passwords to login to your record. Kindly note we never approach you for client secret word data either on telephone or face to face. </li>
+                                    <li>Notice the displays of anger, deep frustration or efforts to pressure or control you. Acting in a resentful manner, making demeaning or disrespectful comments or any physically inappropriate behavior all these are warning signs to beware of that person.</li>
+                                    <li>Never share your money related subtleties like account number, web-based financial qualifications, Master card subtleties and so on and be careful about the individuals who request the cash from you. Utilize good instinct judgment and don't make any choice in a rush.</li>
+                                    <li>You will have the ability to block the users.</li>
+                                    <li>Involve your family or your close friends in your search for a life partner and do not take a decision unilaterally. Meet with a prospective companion in a safe and busy place and inform your family or friends regarding the gathering. </li>
+
+                                </ul>
+
+                                <p>Using your sense is your best bet because ultimately, you are responsible for your individual experience. Trust your sentiments and then move ahead with the right person!
+
+                                </p>
+
+                                <p>On the off chance that you face any of the above-expressed circumstances or go over a likely deceptive profile, quickly inform us via Email: Support@Special-Matrimony.com</p>
+                            </div>
+                        </div>
+    
+                        <!-- Video -->
+                        <div
+      id="preview"
+      class="basic-1"
+      style="margin-top: 30px; padding-top: 0px; width:100%;"
+    >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <button class="btn btn-outline-danger active" data-toggle="dropdown"
+                        id="btn-lng">Select Language</button>
+                    <div>
+                        <div class="dropdown-menu" id="dropdown">
+                            <a class="dropdown-item" onclick="changeVideoSrc(0)">ASL</a>
+                            <a class="dropdown-item"  onclick="changeVideoSrc(1)">BSL</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <div class="image-container"> -->
+            <div class="video-wrapper image-container">
+              
+                <img
+                  src="./images/assets/group.png"
+                  class="vide--preview--bg-image"
+                  alt=""
+                  style="margin-bottom: -45px; margin-right:-45px; background: none"
+                />
+                <!-- <img
+                  class="img-fluid"
+                  src="images/assets/resized.png"
+                  alt="alternative"
+                /> -->
+                <video style="width: 100%; border-radius: 12px;"
+                src="images/vid.mp4"
+                  class="img-fluid videoelem"
+                  id="video-elem"
+                  alt="alternative"
+                ><img
+                class="img-fluid"
+                src="images/assets/resized.png"
+                alt="alternative"
+              /></video>
+
+                <div
+                  class="content-conainer"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    color: white;
+                  "
+                >
+                  <div id="videoElement" class="d-flex" style="width: 100%; height: 100%">
+                    <img
+                      id="play"
+                      class="mr-auto ml-auto preview--icon"
+                      src="./images/assets/Button.png"
+                      style="background: none; margin: auto; cursor: pointer"
+                      alt="margin:auto"
+                      onclick="openPopup()"
+                    />
+                    <span style="display:none;" class="mr-auto ml-auto preview--icon" style="font-size: 3em; margin: auto;" onclick="pauseVideo()" id="pause"><i class="fa fa-pause"></i></span>
+                    </div>
+                  </div>
+                </div>
+              <!-- </a> -->
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of header-content -->
+        
+    </section>
+
+
+
+    <script>
+        const video_asl_src = 'images/vid.mp4';
+        const video_bsl_src = 'images/vids.mp4';
+        const videoSources = [video_asl_src, video_bsl_src];
+        var video_src = video_asl_src;
+
+        function openPopup(index = 0) {
+            // make display block
+            // // play video
+            // playVideo();
+            // return;
+            let video_player = document.getElementById('video-elem');
+            
+            // video_player.src = videoSources[index];
+            let pause = document.getElementById('pause');
+            let play = document.getElementById('play');
+            
+          // let video_player = document.getElementById('video-player');
+          
+          video_player.src = videoSources[index];
+          video_player.play();
+            // video_player.load();
+            pause.style.display = "block";
+            play.style.display = "none";
+            
+            // return; 
+
+        }
+
+        function closePopup() {
+            // make display none
+            let video_container = document.getElementById('pop-up-video');
+            let video_player = document.getElementById('video-player');
+            video_player.pause();
+            video_container.style.display = "none";
+        }
+
+        function changeVideoSrc(index) {
+            openPopup(index);
+        }
+
+
+        
+      function playVideo(params) {
+          let video_player = document.getElementById('video-elem');
+          let pause = document.getElementById('pause');
+          let play = document.getElementById('play');
+          play.style.display = "none";
+          pause.style.display = "block";
+          // let video_player = document.getElementById('video-player');
+          
+          // video_player.src = videoSources[index];
+          video_player.play();
+      }
+
+      function pauseVideo(params) {
+          let video_player = document.getElementById('video-elem');
+          let pause = document.getElementById('pause');
+          let play = document.getElementById('play');
+          play.style.display = "block";
+          pause.style.display = "none";
+          // let video_player = document.getElementById('video-player');
+          
+          // video_player.src = videoSources[index];
+          video_player.pause();
+      }
+
+
+
+    </script>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstra
+</body>
+</html>

@@ -1,0 +1,32 @@
+select {
+    /* you should keep these first rules in place to maintain cross-browser behavior */
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url('../images/Icons/chevron-thin-down.png');
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none; /* removes the ugly default down arrow on select form field in IE11 */
+}
+
+
+.form-control {
+    border: 1px solid #ff7f36;
+    font-size: 22px;
+}
+
+.form-control:focus {
+    border: 2px solid #ff8036a4;
+    box-shadow: 0 0 5px #ff8036c0;
+}
+
+
+.form-control::placeholder {
+    color: rgba(128, 128, 128, 0.541);
+}
