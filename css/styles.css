@@ -41,6 +41,7 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+font-family: 'Amaranth', sans-serif;
 body,
 html {
     width: 100%;
@@ -56,6 +57,7 @@ body, p {
 	color: gray;
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
 }
+
 
 .p-small {
 	color: #f1f1f8;
@@ -1765,8 +1767,11 @@ a:hover.back-to-top {
 }
 
 .amazing--feature h1 {
-	font-weight: 600;
-	font-size: 4vw;
+	
+	font-size: 3.5vw;
+	font-family: 'Amaranth', sans-serif;
+	color: #FF00BC;
+	letter-spacing: 5px;
 }
 
 .image--container {
@@ -2097,5 +2102,44 @@ section.happy--section {
 /**************************************************************************************
 
 .
+
+/*mycss*/
+
+.font-family{
+    font-family: 'Amaranth', sans-serif;
+}
+.custom__img{
+    width: 145px;
+}
+.custom__btn{
+    background: linear-gradient(to right, #FA8F4F , #F752A4);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 170px
+}
+
+.custom__card{
+    background-color: #f2f2f2d1;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.custom__card:hover{
+   border : 3px solid #FF8334;
+}
+.text__custom{
+    color: #FF00BC;
+}
+.img__custom__fluid{
+        max-width: 54%;
+    height: auto;
+}
+.app-img{
+    width: auto;
+    height: 60px;
+}
+
+
+/*mycss*/
 
 
