@@ -61,23 +61,45 @@
     <!-- end of preloader -->
 
     <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="https://special-matrimony.com/new.html">Home</a>
-        <a href="https://special-matrimony.com/aboutus.html">About</a>
-        <a href="https://special-matrimony.com/coming.html">Blog</a>
-        <a href="https://special-matrimony.com/coming.html">Help</a>
-        <a href="https://special-matrimony.com/coming.html">Career</a>
-        <a href="https://special-matrimony.com/contact.html">Contact us</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a  href="javascript:void(0)" class="closebtn nav-link" onclick="closeNav()">×</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://special-matrimony.com/new.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://special-matrimony.com/aboutus.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Blog</a>
+            </li>
+             <li class="nav-item">
+                <a href="https://special-matrimony.com/coming.html" class="nav-link">Help</a>
+            </li>
+             <li class="nav-item">
+                <a href="https://special-matrimony.com/coming.html" class="nav-link">Career</a>
+            </li>
+             <li class="nav-item">
+                <a href="https://special-matrimony.com/contact.html" class="nav-link">Contact us</a>
+            </li>
+             <li class="nav-item">
+               <a href="" class="nav-link d-sm-block d-md-none d-lg-none"> <img src="images/assets/translation-orange.svg" class="img-fluid" style="width: 40px" alt=""></a>
+               
+            </li>
+        </ul>
+        
+       
     </div>
 
     <div class="d-flex sp--menu">
-       
-        <img src="images/Icons/logoWhite.png" style="width: 20em;" class="mr-auto" alt="">
+
+        <img src="images/Icons/logoWhite.png" style="width: 200px" class="mr-auto img-fluid" alt="">
         <!-- <img src="images/sp1122.png" class="mr-auto" alt="" /> -->
         <div>
-          <a href=""> <img src="images/assets/translation1.svg" class="img-fluid mx-4" style="width: 40px" alt=""></a>
-           
-       </div>
+            <a href=""> <img src="images/assets/translation1.svg" class="img-fluid d-none d-md-block mx-4" style="width: 40px" alt=""></a>
+
+        </div>
         <div class="mt-auto mb-auto">
             <img onclick="openNav()" src="images/Icons/menu.png" class="ml-auto" style="cursor: pointer; width: 30px;" alt="" />
         </div>
@@ -89,7 +111,7 @@
         </video>
 
         <div class="video-overlay header-text">
-            <div class="caption">
+            <div class="caption caption--custom">
                 <div class="d-flex justify-content-center p-1">
                     <a href="https://play.google.com/store/apps/details?id=app.rubikkube.deafmatrimony" target="blank">
                         <img src="images/assets/google_play.png" class="m-3 custom__img" alt="" />
@@ -117,7 +139,7 @@
                 </div>
             </div>
             <a href="https://special-matrimony.com/aboutus.html" class="border-0 text-light btn btn-light custom__btn font-family font-weight-bold" id="btn-get-started">
-           Get Started
+                Get Started
             </a>
 
             <!-- <button class="btn btn-outline-primary" style="width: 160px;">Get Started</button> -->
@@ -126,73 +148,113 @@
 
     <section id="feature" class="features">
         <div class="container">
-            <div class="row">
+           
+           <div class="row mt-n5 mb-5">
+              
+               <div class="col-md-4">
+                    <div class="main p-3 mt-3 d-flex  align-items-center">
+                       <div class="image__left">
+                           <img src="images/assets/icon-members.png" class="img-fluid" alt="">
+                       </div>
+                       <div class="image__content ml-3">
+                           <h3 class="text__custom font-family">500</h3>
+                           <p class="text-dark font-weight-bold font-family">Active User's</p>
+                       </div>
+                   </div>
+               </div>
+               
+                <div class="col-md-4">
+                   <div class="main p-3 mt-3 d-flex  align-items-center ">
+                       <div class="image__left pl-4">
+                           <img src="images/assets/icon-globe.png" class="img-fluid" alt="">
+                       </div>
+                       <div class="image__content ml-3">
+                           <h3 class="text__custom font-family">11+</h3>
+                           <p class="text-dark font-weight-bold font-family">Active Country</p>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-md-4">
+                    <div class="main p-3 mt-3 d-flex  align-items-center pl-4">
+                       <div class="image__left">
+                           <img src="images/assets/icon-party.png" class="img-fluid" alt="">
+                       </div>
+                       <div class="image__content ml-3">
+                           <h3 class="text__custom font-family">51</h3>
+                           <p class="text-dark font-weight-bold font-family">Match Found</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+           
+            <div class="row mt-2">
 
-                <div class="col-md-12 mt-n5 text-center ">
-                    <h1 class="text__custom">Discover Our</h1>
-                    <h1 class="text__custom">Amazing Features</h1>
+                <div class="col-md-12  text-center mb-4 ">
+                    <h1 class="display-4 text__custom font-family">Discover Our <br> Amazing Features</h1>
 
                 </div>
 
             </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card">
-                                <img src="images/Icons/1.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold mt-4 text--orange">Advance search</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card">
+                            <img src="images/assets/loupe1.svg" class="img__custom__fluid img-icon"  alt="" />
                         </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card ">
-                                <img src="images/Icons/3.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold mt-4 text--orange">Video Calling</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card ">
-                                <img src="images/Icons/2.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold  mt-4 text--orange">Instant Messaging</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card">
-                                <img src="images/Icons/4.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold mt-4 text--orange">Add people to favourites</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card ">
-                                <img src="images/Icons/5.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold mt-4 text--orange">Virtual Gifts</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-2 mt-2">
-                        <div class="card text-center">
-                            <div class="p-3  custom__card">
-                                <img src="images/Icons/6.png" class="img__custom__fluid" alt="" />
-                            </div>
-                            <p class="text-center font-family font-weight-bold mt-4 text--orange">
-                                App translations to multiple languages
-                            </p>
-                        </div>
+                        <p class="text-center font-family font-weight-bold mt-4 text--orange">Advance search</p>
                     </div>
                 </div>
-            
+
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card ">
+                            <img src="images/assets/video-call1.svg" class="img__custom__fluid img-icon"  alt="" />
+                        </div>
+                        <p class="text-center font-family font-weight-bold mt-4 text--orange">Video Calling</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card ">
+                            <img src="images/assets/msg.svg" class="img__custom__fluid img-icon"   alt="" />
+                        </div>
+                        <p class="text-center font-family font-weight-bold  mt-4 text--orange">Instant Messaging</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card">
+                            <img src="images/assets/ffavorite%20(1).svg" class="img__custom__fluid img-icon"  alt="" />
+                        </div>
+                        <p class="text-center font-family font-weight-bold mt-4 text--orange">Add people to favourites</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card ">
+                            <img src="images/assets/gift.svg" class="img__custom__fluid img-icon" alt="" />
+                        </div>
+                        <p class="text-center font-family font-weight-bold mt-4 text--orange">Virtual Gifts</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-2 mt-2">
+                    <div class="card text-center">
+                        <div class="p-3  custom__card">
+                            <img src="images/assets/llanguage.svg" class="img__custom__fluid img-icon"  alt="" />
+                        </div>
+                        <p class="text-center font-family font-weight-bold mt-4 text--orange">
+                            App translations to multiple languages
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </section>
