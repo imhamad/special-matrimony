@@ -2262,6 +2262,12 @@ section.happy--section {
     max-width: 54%;
     height: auto;
 }
+.img-icon{
+        max-width: 80px;
+    max-height: 80px;
+    display: block;
+    margin: auto;
+}
 
 .app-img {
     width: auto;
