@@ -2307,6 +2307,13 @@ section.happy--section {
     color: #FF7D34;
     text-decoration: none
 }
+.container-fluid-custom {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 /*mycss*/
@@ -2332,3 +2339,4 @@ section.happy--section {
         width: 106px;
     }
 }
+

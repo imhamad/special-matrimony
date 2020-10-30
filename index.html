@@ -43,6 +43,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/video.css" />
 
+
     <!-- Favicon  -->
     <link rel="icon" href="images/assets/100.png" />
 </head>
@@ -170,7 +171,7 @@
                         </div>
                         <div class="image__content ml-3">
                             <h3 class="text__custom font-family">11+</h3>
-                            <p class="text-dark font-weight-bold font-family">Active Country</p>
+                            <p class="text-dark font-weight-bold font-family">Active Countries</p>
                         </div>
                     </div>
                 </div>
@@ -348,11 +349,11 @@
                                     <div class="services--item card">
                                         <div class="card-body text-center">
                                             <div class="item--icon">
-                                                <img src="./images/assets/icons5.png" alt="" />
+                                                <img src="images/assets/play1.svg" class="img-icon" alt="" />
                                             </div>
 
-                                            <p><strong>Video Guide</strong></p>
-                                            <p>
+                                            <p class="font-family"><strong>Video Guide</strong></p>
+                                            <p class="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit, sed do eiusmod tempor incididunt ut labore et
                                                 dolore magna.
@@ -368,11 +369,11 @@
                                     <div class="services--item card">
                                         <div class="card-body text-center">
                                             <div class="item--icon">
-                                                <img src="./images/Icons/disable.png" alt="" />
+                                                <img src="images/assets/ddisabled-person.svg" class="img-icon" alt="" />
                                             </div>
 
-                                            <p><strong>For all disable persons</strong></p>
-                                            <p>
+                                            <p class="font-family"><strong>For all disable persons</strong></p>
+                                            <p class="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit, sed do eiusmod tempor incididunt ut labore et
                                                 dolore magna.
@@ -388,11 +389,11 @@
                                     <div class="services--item card">
                                         <div class="card-body text-center">
                                             <div class="item--icon">
-                                                <img src="./images/Icons/profile.png" alt="" />
+                                                <img src="images/assets/user1.svg" class="img-icon" alt="" />
                                             </div>
 
-                                            <p><strong>100% Authentic profile</strong></p>
-                                            <p>
+                                            <p class="font-family"><strong>100% Authentic profile</strong></p>
+                                            <p class="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit, sed do eiusmod tempor incididunt ut labore et
                                                 dolore magna.
@@ -408,11 +409,11 @@
                                     <div class="services--item card">
                                         <div class="card-body text-center">
                                             <div class="item--icon">
-                                                <img src="./images/Icons/mobile-app.png" alt="" />
+                                                <img src="images/assets/ssmartphone.svg" class="img-icon" alt="" />
                                             </div>
 
-                                            <p><strong>Mobile App</strong></p>
-                                            <p>
+                                            <p class="font-family"><strong>Mobile App</strong></p>
+                                            <p class="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit, sed do eiusmod tempor incididunt ut labore et
                                                 dolore magna.
@@ -555,41 +556,45 @@
             </div>
         </div>
     </section>
-    
-    
-    <section class="d-none d-md-block">
-        <div class="container-fluid">
+
+
+    <!--    Banner Section Start-->
+    <section class="d-none d-md-block ">
+        <div class="container-fluid ">
             <div class="row">
                 <div class="col-sm-12">
-                    
-                        <img src="images/assets/SM_Facebook_Cover_1.png" class="img-fluid" alt="">
-                  
-                </div>
-            </div>
-        </div>
-    </section>
-    
-      <section class="d-md-none d-block">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    
-                        <img src="images/assets/Launched_App%20(1).png" class="img-fluid" alt="">
-                  
+
+                    <img src="images/assets/SM_Facebook_Cover_1.png" class="img-fluid mt-4" alt="">
+
                 </div>
             </div>
         </div>
     </section>
 
+    <!--     For mobile screen banner-->
+    <section class="d-md-none d-block">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <img src="images/assets/Launched_App%20(1).png" class="img-fluid" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    Banner Section End -->
+
     <section class="my-3" style="">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="footer-image">
+                <div class="col-md-5">
+                    <div class="footer-image text-center">
                         <img class="img-fluid" src="images/sp1122.png" alt="" />
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="row mt-5 text-center">
                         <div class="col-md-3 ">
                             <a href="privacy.html" class="footer-pink font-family">Privacy policy</a>
@@ -680,6 +685,88 @@
             // video_player.src = videoSources[index];
             video_player.pause();
         }
+
+
+
+
+        // Bootsnip Javascipt
+
+
+
+        let i = 2;
+
+
+        $(document).ready(function() {
+            var radius = 200;
+            var fields = $('.itemDot');
+            var container = $('.dotCircle');
+            var width = container.width();
+            radius = width / 2.5;
+
+            var height = container.height();
+            var angle = 0,
+                step = (2 * Math.PI) / fields.length;
+            fields.each(function() {
+                var x = Math.round(width / 2 + radius * Math.cos(angle) - $(this).width() / 2);
+                var y = Math.round(height / 2 + radius * Math.sin(angle) - $(this).height() / 2);
+                if (window.console) {
+                    console.log($(this).text(), x, y);
+                }
+
+                $(this).css({
+                    left: x + 'px',
+                    top: y + 'px'
+                });
+                angle += step;
+            });
+
+
+            $('.itemDot').click(function() {
+
+                var dataTab = $(this).data("tab");
+                $('.itemDot').removeClass('active');
+                $(this).addClass('active');
+                $('.CirItem').removeClass('active');
+                $('.CirItem' + dataTab).addClass('active');
+                i = dataTab;
+
+                $('.dotCircle').css({
+                    "transform": "rotate(" + (360 - (i - 1) * 36) + "deg)",
+                    "transition": "2s"
+                });
+                $('.itemDot').css({
+                    "transform": "rotate(" + ((i - 1) * 36) + "deg)",
+                    "transition": "1s"
+                });
+
+
+            });
+
+            setInterval(function() {
+                var dataTab = $('.itemDot.active').data("tab");
+                if (dataTab > 6 || i > 6) {
+                    dataTab = 1;
+                    i = 1;
+                }
+                $('.itemDot').removeClass('active');
+                $('[data-tab="' + i + '"]').addClass('active');
+                $('.CirItem').removeClass('active');
+                $('.CirItem' + i).addClass('active');
+                i++;
+
+
+                $('.dotCircle').css({
+                    "transform": "rotate(" + (360 - (i - 2) * 36) + "deg)",
+                    "transition": "2s"
+                });
+                $('.itemDot').css({
+                    "transform": "rotate(" + ((i - 2) * 36) + "deg)",
+                    "transition": "1s"
+                });
+
+            }, 5000);
+
+        });
 
     </script>
 
