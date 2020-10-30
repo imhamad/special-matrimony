@@ -878,8 +878,8 @@ screen and (-ms-high-contrast: none) {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {
-    padding-top: 6.875rem;
-    padding-bottom: 6.375rem;
+    padding-top: 2.875rem;
+    padding-bottom: 0.375rem;
     background-color: #262431;
 }
 
@@ -941,7 +941,7 @@ screen and (-ms-high-contrast: none) {
 /*********************/
 .basic-1 {
     padding-top: 6.375rem;
-    padding-bottom: 6.875rem;
+    padding-bottom: 2.875rem;
     /* background: url('../images/video-background.jpg') center center no-repeat; */
     background-size: cover;
 }
@@ -1127,7 +1127,7 @@ screen and (-ms-high-contrast: none) {
 /*     10. Screenshots     */
 /***************************/
 .slider-2 {
-    padding-top: 6.875rem;
+    padding-top: 2.875rem;
     padding-bottom: 6.875rem;
     background-color: #fee6f4
 }
@@ -2121,7 +2121,7 @@ a:hover.back-to-top {
 }
 
 section.happy--section {
-    margin: 10em auto;
+    margin: 6em auto;
     background-color: #fee6f4;
     padding: 4em 2em;
 }
@@ -2288,6 +2288,24 @@ section.happy--section {
 
 .features {
     margin-top: 7em;
+    margin-bottom: 0px
+}
+
+.footer-pink{
+    color: #FF00BC;
+    text-decoration: none;
+}
+.footer-pink:hover{
+    color: #FF00BC;
+    text-decoration: none
+}
+.footer-orange{
+    color: #FF7D34;
+    text-decoration: none;
+}
+.footer-orange:hover{
+    color: #FF7D34;
+    text-decoration: none
 }
 
 
