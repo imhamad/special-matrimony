@@ -26,14 +26,14 @@
   /* opacity: 0.5; */
 }
 
-.sidebar a {
+.sidebar .nav-item .nav-link {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #ff7d34;
   display: block;
   transition: 0.3s;
-  border-bottom: 2px solid #ffffff91;
+  text-decoration: revert
 }
 
 .sidebar a:hover {
@@ -80,7 +80,7 @@
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {
-    padding-top: 15px;
+    padding-top: 60px;
   }
   .sidebar a {
     font-size: 18px;
@@ -127,7 +127,7 @@
 
 .video-overlay {
   position: absolute;
-  background-color: rgba(35, 45, 57, 0.8);
+  background-color: rgba(35, 45, 57, 0.4);
   top: 0;
   left: 0;
   bottom: 7px;
@@ -219,3 +219,4 @@
 #play {
   opacity: 1;
 }
+/* ***********  */
