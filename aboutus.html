@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Matchmaking app for individuals that are deaf, hard of hearing, autistic, visually impaired, additional support needs and medical conditions.
+    " />
+    <meta name="author" content="Special Matrimony" />
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Special Matrimony</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
     <!-- Styles -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet"> -->
-    <link href="css/google.fonts.css" rel="stylesheet">
+    <link href="css/google.fonts.css" rel="stylesheet" />
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"> -->
-    <link href="css/font-awesome-chivo.css" rel="stylesheet">
-    <link href="css/font-awesome-roboto.css" rel="stylesheet">
-    <link href="css/google.fonts.2.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link href="css/aboutus.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/video.css">
-    <title>Document</title>
+
+    <link href="css/font-awesome-chivo.css" rel="stylesheet" />
+    <link href="css/font-awesome-roboto.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="css/google.fonts.2.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/video.css" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/assets/100.png" />
+
     <style>
         body{
             margin: 0;
@@ -35,22 +62,95 @@
     </style>
 </head>
 <body>
-    <section class="header">
-        <div class="flex margin--btm--md">
-            <div class="flex1"></div>
-            <div class="flex1">
-                <img src="images/sp1122.png" class="sp--menu--img" style="width: 300px;" alt="">
-            </div>
-            <div class="flex1 align-right">
-                <div class="icon dropdown">
-                    <!-- <span>Menu</span> -->
-    
-                    <span><i class="fas fa-ellipsis-h span-fill" id="menu"></i></span>
-    
-                </div>
-    
-            </div>
+   
+    <div id="mySidebar" class="sidebar">
+        <ul class="navbar-nav">
+            <li class="nav-item" >
+                <a href="javascript:void(0)" class="closebtn nav-link " style="text-decoration: none" onclick="closeNav()">×</a>
+            </li>
+            <li class="nav-item">
+                <a href="new.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="aboutus.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="coming.html" class="nav-link">Help</a>
+            </li>
+            <li class="nav-item">
+                <a href="coming.html" class="nav-link">Career</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link d-sm-block d-md-none d-lg-none"> <img src="images/assets/translation-orange.svg" class="img-fluid" style="width: 40px" alt=""></a>
+
+            </li>
+        </ul>
+
+
+    </div>
+
+    <div class="d-flex sp--menu">
+
+        <img src="images/Icons/logoWhite.png" style="width: 200px" class="mr-auto img-fluid" alt="">
+        <!-- <img src="images/sp1122.png" class="mr-auto" alt="" /> -->
+        <div>
+            <a href=""> <img src="images/assets/translation1.svg" class="img-fluid d-none d-md-block mx-4" style="width: 40px" alt=""></a>
+
         </div>
+        <div class="mt-auto mb-auto">
+            <img onclick="openNav()" src="images/Icons/menu.png" class="ml-auto" style="cursor: pointer; width: 30px;" alt="" />
+        </div>
+    </div>
+
+    <div class="main-banner">
+        <video autoplay="true" muted="" loop="true" id="bg-video">
+            <source src="images/vid.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption caption--custom">
+                <div class="d-flex justify-content-center p-1">
+                    <a href="https://play.google.com/store/apps/details?id=app.rubikkube.deafmatrimony" target="blank">
+                        <img src="images/assets/google_play.png" class="m-3 custom__img" alt="" />
+                    </a>
+                    <a href="https://apps.apple.com/us/app/id1533413085">
+                        <img src="images/assets/apple_appstore.png" class="m-3 custom__img" alt="" />
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center p-1 social-icons">
+                    <a href="http://www.facebook.com/SpecialMatrimony">
+                        <img src="images/assets/facebook1.svg" class="m-2" alt="" />
+                    </a>
+                    <a href="http://www.instagram.com/SpecialMatrimony">
+                        <img src="images/assets/instagram1.svg" class="m-2" alt="" />
+                    </a>
+                    <a href="http://www.twitter.com/specialMatrimo1">
+                        <img src="images/assets/twit.svg" class="m-2" alt="" />
+                    </a>
+                    <a href="http://www.pinterest.com/SpecialMatrimony">
+                        <img src="images/assets/pint.svg" class="m-2" alt="" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCrjQKrrBtQ7ftst4FNgt_YA">
+                        <img src="images/assets/youtube1.svg" class="m-2" alt="" />
+                    </a>
+                </div>
+            </div>
+            <a href="https://special-matrimony.com/aboutus.html" class="border-0 text-light btn btn-light custom__btn font-family font-weight-bold" id="btn-get-started">
+                Get Started
+            </a>
+
+            <!-- <button class="btn btn-outline-primary" style="width: 160px;">Get Started</button> -->
+        </div>
+    </div>
+
+    <section class="header">
+        
             <div class="header-content">
                 <div class="container">
                     <div class="row">
@@ -222,16 +322,79 @@
 
 
 
+  
+        const video_asl_src = 'images/vid.mp4';
+        const video_bsl_src = 'images/vids.mp4';
+        const videoSources = [video_asl_src, video_bsl_src];
+        var video_src = video_asl_src;
+
+        function openPopup(index = 0) {
+            // make display block
+            // play video
+            playVideo();
+            return;
+            // console.log('index', index);
+            let video_container = document.getElementById('pop-up-video');
+            let video_player = document.getElementById('video-player');
+
+            video_player.src = videoSources[index];
+            video_player.load();
+            video_container.style.display = "block";
+        }
+
+        function closePopup() {
+            // make display none
+            let video_container = document.getElementById('pop-up-video');
+            let video_player = document.getElementById('video-player');
+            video_player.pause();
+            video_container.style.display = "none";
+        }
+
+        function changeVideoSrc(index) {
+            openPopup(index);
+        }
+
+        function playVideo(params) {
+            let video_player = document.getElementById('video-elem');
+            let pause = document.getElementById('pause');
+            let play = document.getElementById('play');
+            play.style.display = "none";
+            pause.style.display = "block";
+            // let video_player = document.getElementById('video-player');
+
+            // video_player.src = videoSources[index];
+            video_player.play();
+        }
+
+        function pauseVideo(params) {
+            let video_player = document.getElementById('video-elem');
+            let pause = document.getElementById('pause');
+            let play = document.getElementById('play');
+            play.style.display = "block";
+            pause.style.display = "none";
+            // let video_player = document.getElementById('video-player');
+
+            // video_player.src = videoSources[index];
+            video_player.pause();
+        }
+
     </script>
 
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstra
-</body>
-</html>
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script>
+    <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script>
+    <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script>
+    <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script>
