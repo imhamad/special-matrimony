@@ -2316,6 +2316,7 @@ section.happy--section {
 }
 
 
+
 /*mycss*/
 
 
@@ -2339,4 +2340,17 @@ section.happy--section {
         width: 106px;
     }
 }
+@media screen and (max-width : 1199px) {
+    .card-custom{
+        min-height : 482px
+    }
+}
+@media screen and (max-width : 992px) {
+    .main-custom{
+        min-height : 139px
+    }
+}
+
+
+
 
