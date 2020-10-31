@@ -99,7 +99,7 @@
         <!-- <img src="images/sp1122.png" class="mr-auto" alt="" /> -->
         <div>
             <a href=""> <img src="images/assets/translation1.svg" class="img-fluid d-none d-md-block mx-4" style="width: 40px" alt=""></a>
-
+ <a id="google_translate_element" class="" class="img-fluid d-none d-md-block mx-4"></a>
         </div>
         <div class="mt-auto mb-auto">
             <img onclick="openNav()" src="images/Icons/menu.png" class="ml-auto" style="cursor: pointer; width: 30px;" alt="" />
@@ -683,6 +683,17 @@
         }
 
     </script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    includedLanguages: 'ar,de,en,nl,ru,fa,ur',
+                }, 'google_translate_element');
+
+            }
+
+        </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></script>
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
