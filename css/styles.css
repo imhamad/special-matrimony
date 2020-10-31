@@ -2220,6 +2220,13 @@ section.happy--section {
 
 /*mycss*/
 
+.custom-logo{
+        width: 214px;
+    height: 60px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
 .font-family {
     font-family: 'Amaranth', sans-serif;
 }
@@ -2405,4 +2412,16 @@ section.happy--section {
 
 body {
     top: 0 !important;
+}
+
+.header .header-content {
+    padding-top: 0rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+.header .header-content {
+    padding-top: 0rem;
+}
 }
