@@ -1,9 +1,5 @@
-/* Template: Leno - Mobile App HTML Landing Page Template
-   Author: Inovatik
-   Created: Mar 2019
-   Description: Master CSS file
-*/
-
+'/* Template: Leno - Mobile App HTML Landing Page Template
+Author: Inovatik Created: Mar 2019 Description: Master CSS file */
 /*****************************************
 Table Of Contents:
 
@@ -277,10 +273,10 @@ screen and (-ms-high-contrast: none) {
     }
 }
 
-.form-control-input:focus + .label-control,
-.form-control-input.notEmpty + .label-control,
-.form-control-textarea:focus + .label-control,
-.form-control-textarea.notEmpty + .label-control {
+.form-control-input:focus+.label-control,
+.form-control-input.notEmpty+.label-control,
+.form-control-textarea:focus+.label-control,
+.form-control-textarea.notEmpty+.label-control {
     top: 0.125rem;
     opacity: 1;
     font-size: 0.75rem;
@@ -650,7 +646,7 @@ screen and (-ms-high-contrast: none) {
     text-align: center;
 }
 
-.spinner > div {
+.spinner>div {
     display: inline-block;
     width: 1rem;
     height: 1rem;
@@ -742,7 +738,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 /* Dropdown Menu */
-.navbar-custom .dropdown:hover > .dropdown-menu {
+.navbar-custom .dropdown:hover>.dropdown-menu {
     display: block;
     /* this makes the dropdown menu stay open while hovering it */
     min-width: auto;
@@ -1916,7 +1912,7 @@ a:hover.back-to-top {
     margin: auto;
 }
 
-.item-card:hover > .image--container {
+.item-card:hover>.image--container {
     box-shadow: 0px 0px 40px lightgray;
     margin-top: -30px;
     background-color: #ff7d34;
@@ -1928,7 +1924,7 @@ a:hover.back-to-top {
 }
 
 
-.item-card:hover > .text--orange {
+.item-card:hover>.text--orange {
     color: black;
 }
 
@@ -2025,7 +2021,7 @@ a:hover.back-to-top {
 }
 
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
+.swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -20px;
     left: 0;
     width: 50%;
@@ -2202,8 +2198,8 @@ section.happy--section {
     border: 2px solid #dcdddc;
 }
 
-#videoElement:hover > #play,
-#videoElement:hover > #pause {
+#videoElement:hover>#play,
+#videoElement:hover>#pause {
     opacity: 1;
     transition: .8s ease-in-out;
 }
@@ -2223,6 +2219,10 @@ section.happy--section {
 .
 
 /*mycss*/
+
+.custom-logo{
+       
+}
 
 .font-family {
     font-family: 'Amaranth', sans-serif;
@@ -2253,20 +2253,21 @@ section.happy--section {
 .text__custom {
     color: #FF00BC;
     letter-spacing: 3px;
-    
+
     font-weight: 500;
 }
 
-.main{
+.main {
     background-color: ;
     border-radius: 10px;
-       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
 }
-.main:hover{
-  
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
- 
+
+.main:hover {
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
 }
 
 
@@ -2274,8 +2275,9 @@ section.happy--section {
     max-width: 54%;
     height: auto;
 }
-.img-icon{
-        max-width: 80px;
+
+.img-icon {
+    max-width: 80px;
     max-height: 80px;
     display: block;
     margin: auto;
@@ -2291,22 +2293,34 @@ section.happy--section {
     margin-bottom: 0px
 }
 
-.footer-pink{
+.footer-pink {
     color: #FF00BC;
     text-decoration: none;
 }
-.footer-pink:hover{
+
+.footer-pink:hover {
     color: #FF00BC;
     text-decoration: none
 }
-.footer-orange{
+
+.footer-orange {
     color: #FF7D34;
     text-decoration: none;
 }
-.footer-orange:hover{
+
+.footer-orange:hover {
     color: #FF7D34;
     text-decoration: none
 }
+
+.container-fluid-custom {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 
 /*mycss*/
@@ -2332,3 +2346,105 @@ section.happy--section {
         width: 106px;
     }
 }
+
+@media screen and (max-width : 1199px) {
+    .card-custom {
+        min-height: 482px
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .main-custom {
+        min-height: 139px
+    }
+}
+
+
+
+.goog-te-banner {
+    display: none !important;
+    visibility: hidden;
+
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0;
+    margin-left: .5em !important;
+    padding: .1em !important;
+    width: 5em;
+    margin-top: 0em !important;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+.form-input-custom {
+    border: none;
+    border-bottom: 2px solid #F5A52A;
+    font-size: 18px;
+    border-radius: 0px;
+
+
+}
+
+/*form button*/
+.form-buttom-custom {
+    padding: 10px;
+    background-color: #F5A52A;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    width: 120px;
+}
+
+body {
+    top: 0 !important;
+}
+
+.header .header-content {
+    padding-top: 0rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+.header .header-content {
+    padding-top: 0rem;
+}
+}
+.for-xs-sm-sc{
+    display: none !important;
+}
+@media screen and (min-width:768px){
+.for-md-lg-sc{
+    display: block !important;
+}
+    }
+
+@media screen and (max-width:768px){
+    .for-xs-sm-sc{
+        display:block !important;
+    }
+    .for-md-lg-sc{
+    display: none !important;
+}
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0;
+    margin-left: .5em !important;
+    padding: .1em !important;
+    width: auto;
+    margin-top: 0em !important;
+}
+
