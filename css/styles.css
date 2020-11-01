@@ -2221,10 +2221,7 @@ section.happy--section {
 /*mycss*/
 
 .custom-logo{
-        width: 214px;
-    height: 60px;
-    padding: 0px;
-    margin-top: 8px;
+       
 }
 
 .font-family {
@@ -2425,3 +2422,29 @@ body {
     padding-top: 0rem;
 }
 }
+.for-xs-sm-sc{
+    display: none !important;
+}
+@media screen and (min-width:768px){
+.for-md-lg-sc{
+    display: block !important;
+}
+    }
+
+@media screen and (max-width:768px){
+    .for-xs-sm-sc{
+        display:block !important;
+    }
+    .for-md-lg-sc{
+    display: none !important;
+}
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 0px 0;
+    margin-left: .5em !important;
+    padding: .1em !important;
+    width: auto;
+    margin-top: 0em !important;
+}
+
